@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2016-12-16 19:51:45
+ * @version $Id$
+ */
+/*top*/
+/*banner*/
+.banner{
+    width:100%;
+    height: 100%;
+}
+.banner a{
+    display: inline-block;
+    width:100%;
+    height:590px;
+}
+.banner a img{
+    width:100%;
+    height:100%;
+}
+
+/*内容*/
+.content{
+   padding-top:46px;
+}
+.content .title{
+    margin-bottom: 48px;
+}
+.content .indus{
+   padding-left: 10px;
+}
+.content .indus p,.decorate .indus p{
+    font-size: 20px;
+    color:#a98251;
+    position: relative;
+    line-height: 30px;
+}
+.content .indus p span,.decorate .indus p span{
+    font-size: 16px;
+}
+.content .indus p a{
+    position: absolute;
+    top:0px;
+    left: 206px;
+    font-size: 12px;
+}
+.content .line{
+    position: relative;
+}
+.content .line i,.decorate .line i{
+    width:282px;
+    height:2px;
+    background-color: #a98251;
+    /*border:1px solid #a98251;*/
+    vertical-align:middle;
+}
+.content .line b{
+    position: absolute;
+    top:-9px;
+    left: 268px;
+    width:14px;
+    height:20px;
+    background:url(../images/news-triangle.png) no-repeat;
+}
+.content .list,.decorate .list{
+    padding:30px 10px;
+    overflow: hidden;
+}
+.content .list .introduce,.decorate .list .introduce{
+    margin-top:20px;
+    height:380px;
+}
+.content .list .introduce img{
+    float: left;
+    margin-right: 24px;
+    margin-left: -700px;
+}
+.content .list .introduce .txt,.decorate .list .introduce .txt{
+    width:620px;
+    border:1px solid #a98251;
+    margin-top:46px;
+    position: relative;
+    padding:62px 26px 36px 26px;
+    font-size: 14px;
+    margin-right: -700px;
+}
+.content .list .introduce .txt>p,.decorate .list .introduce .txt>p{
+    position: absolute;
+    top:-14px;
+    left: 50%;
+    margin-left: -121px;
+    width:242px;
+    background-color: #fff;
+    text-align: center;
+
+}
+.content .list .introduce .char,.decorate .list .introduce .char{
+    text-indent: 2rem;
+}
+.content .list .data,.decorate .list .data{
+    padding-top: 38px;
+}
+.content .list .data span,.decorate .list .data span{
+    font-size: 12px;
+    color:#737373;
+    float: left;
+}
+.content .list .data a,.decorate .list .data a{
+    float: right;
+    width: 74px;
+    height:20px;
+    text-align: center;
+    color:#fff;
+    background-color: #a98251;
+    line-height: 20px;
+}
+/*2017 摄影&贴士*/
+.decorate{
+    padding-top:50px;
+}
+.decorate .mc img{
+    position: absolute;
+    top:0px;
+    left: -136px;
+    width:380px;
+}
+.decorate .flash{
+    top:0;
+    right:0;
+    width:300px;
+}
+.decorate .flash .indus p{
+    text-align: right;
+}
+.decorate .flash .indus p a{
+    font-size: 12px;
+    margin-right: 42px;
+}
+.decorate .flash .line{
+    text-align: right;
+}
+.decorate .flash .line b{
+    top:-9px;
+    left: 18px;
+    width:14px;
+    height:20px;
+    background:url(../images/news-triangle2.png) no-repeat;
+}
+.content img:hover,.decorate img:hover {
+    opacity: .8;
+    cursor:pointer;
+}
+.in3 img,.in4 img{
+    margin-right:-600px;
+}
+.in3 .txt,.in4 .txt{
+    margin-left:-700px;
+}
+
+.more:hover{
+    box-shadow: 2px 3px 6px #a98251;
+}
+.txt:hover{
+    box-shadow: 2px 3px 6px #a98251;
+}
+
+
