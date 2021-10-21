@@ -339,7 +339,7 @@
 }
 #sence .showbox li img {
     width:579px;
-    height:341px;
+    /* height:341px; */
 }
 #sence p.en-story {
     margin:103px 0 73px;
