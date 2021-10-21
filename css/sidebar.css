@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Marte (iqianduan@126.com)
+ * @date    2016-12-26 11:27:14
+ * @version $Id$
+ */
+
+
+/*侧边栏*/
+
+#fixsider {
+    position:fixed;
+    bottom:30%;
+    right:2.7%;
+    display:none;
+}
+
+#fixsider li {
+    position:relative;
+    margin-bottom:1px;
+}
+#fixsider li a {
+    display:block;
+    width:33px;
+    height:33px;
+    border-radius:3px;
+}
+#fixsider li.weixin a {
+    background:#a4a4a4 url(../images/serve-weixin.png) center center no-repeat;
+}
+#fixsider li.weibo a {
+    background:#a4a4a4 url(../images/serve-weibo.png) center center no-repeat;
+}
+#fixsider li.tel a {
+    background:#a4a4a4 url(../images/serve-tel.png) center center no-repeat;
+}
+#fixsider li.totop a {
+    background:#a4a4a4 url(../images/serve-totop.png) center center no-repeat;
+}
+#fixsider li span {
+    position:absolute;
+    display:none;
+    right:33px;
+    top:0;
+    height:33px;
+    width:0;
+    line-height:33px;
+    text-align:center;
+    color:#fff;
+    font-size:16px;
+    padding:0 12px;
+    background:#a98251;
+    border-radius:3px 0 0 3px;
+}
+#fixsider li:hover a {
+    background-color:#a98251;
+    border-radius:0 3px 3px 0;
+}

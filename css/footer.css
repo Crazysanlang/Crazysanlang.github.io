@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Marte (iqianduan@126.com)
+ * @date    2016-12-26 16:07:29
+ * @version $Id$
+ */
+
+
+/*底部开始*/
+.footer{
+    width:100%;height:227px;
+    background-color:#131313;
+    position:relative;
+}
+.footer .footer-logo{
+    width:183px;
+    height: 66px;
+    background-image: url(../images/footer_logo_03.png);
+}
+
+.footer .wrap{width:1200px;
+              height:227px;
+              margin:0 auto;
+              position:relative;}
+
+.footer .wrap .footer-logo{margin-left:21px;
+                           position:absolute;
+                           top:60px;}
+
+.footer .wrap .icon{
+    width:177px;
+    height:38px;
+    margin-left:512px;
+    position:absolute;
+    top:52px;
+}
+.footer .wrap .icon li:hover{
+    background-color:#a97432;
+}
+.footer .wrap .icon li{
+    width:36px;
+    height:36px;
+    border-radius:40px;
+    float:left;
+
+}
+
+.footer .wrap .icon1{margin-right:34px;
+                     background:url(../images/index-sprite.png) no-repeat;
+                     background-position:-38px -20px ;}
+
+.footer .wrap .icon2{margin-right:34px;
+                     background:url(../images/index-sprite.png) no-repeat;
+                     background-position:0 -20px ;}
+
+.footer .wrap .icon3{
+                     background:url(../images/index-sprite.png) no-repeat;
+                     background-position:-75px -20px ;}
+
+
+.footer .ai{
+    width:100%;
+    height: 47px;
+    background-color:#131313;
+    border-top:1px solid #272727
+}
+
+.footer .ai p{
+    text-align: center;
+    line-height:47px;
+    font-size:14px;
+}
+
+.footer .footer_nav{
+   position:absolute;
+   left:200px;
+   top:180px;
+
+}
+
+.footer .footer_nav li{
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    width:104px;
+    border-right:1px solid #222222;
+    height:14px;line-height:14px;}
+
+
+
+.footer .footer_nav li:hover a{
+    color:#a97432;
+}
+
+
+.footer .code{
+    width: 110px;
+    height:122px;
+    position:absolute;
+    right:15px;
+    top:31px;
+    background:url(../images/index-sprite.png) no-repeat;
+    background-position:0 -66px;
+ }
+
+.footerBtn{
+    width:1200px;height:222px;
+    margin:0 auto;
+    position:relative;
+
+}
